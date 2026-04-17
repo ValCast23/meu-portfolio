@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex; 
+    justify-content: space-around; 
+    list-style: none;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #lista-projetos {
+    display: flex;
+    flex-wrap: wrap;        
+    gap: 25px;              
+    justify-content: center; 
+    padding: 20px;
+    max-width: 1200px;      
+    margin: 0 auto;         
+  }
+  
+  .card {
+    flex: 0 1 280px;        
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;      
+  }
+  
+  .imagem-projeto {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .card-conteudo p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  #sobre {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;      
+    padding: 3rem 2rem;
+  }
+  
+  .foto-perfil {
+    width: 180px;            
+    height: 180px;           
+    object-fit: cover;       
+    border-radius: 50%;      
+    border: 3px solid #333;  
+    margin: 20px 0;          
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  }
+  
+  #sobre p {
+    max-width: 700px;       
+    margin-bottom: 15px;
+  }
